@@ -1,4 +1,4 @@
-name: 🚀 SEVER AI STV PREMIUM
+name: Firza Dekstop
 
 on:
   workflow_dispatch:
@@ -12,6 +12,7 @@ on:
         - '1h'
         - '3h' 
         - '5h40m'
+        - '24h'
 
 jobs:
   Premium-RDP-Setup:
@@ -24,8 +25,8 @@ jobs:
         run: |
           Write-Host ""
           Write-Host ""
-          Write-Host "🤖 AI STV PREMIUM RDP SERVER" -ForegroundColor Yellow
-          Write-Host "⚡ Powered by AI STV" -ForegroundColor Green
+          Write-Host "🤖 FIRZA PREMIUM RDP SERVER" -ForegroundColor Yellow
+          Write-Host "⚡ Powered by Firza" -ForegroundColor Green
           Write-Host "🕒 Thời gian: ${{ github.event.inputs.duration }}" -ForegroundColor Magenta
           Write-Host ""
           
@@ -281,7 +282,7 @@ jobs:
           Write-Host "│              🎉 KẾT NỐI THÀNH CÔNG!              │" -ForegroundColor Cyan
           Write-Host "├───────────────────────────────────────────┤" -ForegroundColor Cyan
           Write-Host "│ 🌐  Địa chỉ: $env:TAILSCALE_IP" -ForegroundColor White
-          Write-Host "│ 👤  Tài khoản: AISTV-PREMIUM" -ForegroundColor White
+          Write-Host "│ 👤  Tài khoản: Firza Dekstop" -ForegroundColor White
           Write-Host "│ 🔐  Mật khẩu: $matKhau" -ForegroundColor White
           Write-Host "│ ⏰  Thời lượng: $displayTime" -ForegroundColor White
           Write-Host "│ 🕐  Bắt đầu: $($thoiGianBatDau.ToString('HH:mm:ss'))" -ForegroundColor White
@@ -291,7 +292,7 @@ jobs:
           Write-Host "│ 💡  Hướng dẫn:                                    │" -ForegroundColor Cyan
           Write-Host "│   1. Mở Remote Desktop Connection                 │" -ForegroundColor Yellow
           Write-Host "│   2. Nhập: $env:TAILSCALE_IP                      │" -ForegroundColor Yellow
-          Write-Host "│   3. User: AISTV-PREMIUM | Password: trên          │" -ForegroundColor Yellow
+          Write-Host "│   3. User: Firza Dekstop | Password: trên          │" -ForegroundColor Yellow
           Write-Host "│   4. Enjoy! 🚀                                    │" -ForegroundColor Yellow
           Write-Host "└───────────────────────────────────────────┘" -ForegroundColor Cyan
           
